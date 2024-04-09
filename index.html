@@ -1,59 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mediconnect Internship Program</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #f8f9fa;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mediconnect - Internship Opportunities</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file for styling -->
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #0071bc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      background-color: #005fa1;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    nav a:hover {
+      background-color: #004c82;
+    }
+
+    .section {
+      padding: 40px 0;
+    }
+
+    .section-heading {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .internship-section {
+      background-color: #fff;
+    }
+
+    .about-company-section {
+      background-color: #f5f5f5;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Mediconnect Internship Program</h1>
-        <img src="Logo.png" alt = "Trulli">
-    </header>
-    <section>
-        <h2>Job Openings</h2>
-        <ul>
-            <li>Software Development Intern</li>
-            <li>Data Science Intern</li>
-            <li>Marketing Intern</li>
-        </ul>
-        <h2>Intern Requirements</h2>
-        <p>We are seeking motivated individuals with a passion for revolutionizing the healthcare industry through technology.</p>
-        <h2>Contact Us</h2>
-        <p>If you're interested in joining our team as an intern, please fill out the form below:</p>
-        <form action="submit.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2024 Mediconnect. All rights reserved.</p>
-    </footer>
+  <header>
+    <div class="container">
+      <h1>Mediconnect Internship Opportunities</h1>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#internships">Internships</a>
+    <a href="#about-company">About the Company</a>
+  </nav>
+
+  <div class="internship-section section" id="internships">
+    <div class="container">
+      <h2 class="section-heading">Internship Opportunities</h2>
+      <!-- Internship opportunities content goes here -->
+    </div>
+  </div>
+
+  <div class="about-company-section section" id="about-company">
+    <div class="container">
+      <h2 class="section-heading">About the Company</h2>
+      <!-- About the company content goes here -->
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Mediconnect. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
